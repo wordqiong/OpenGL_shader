@@ -30,6 +30,6 @@ when you open sln,you need to set glitter as your start program(设置glitter为
 
 你可以看见点光源，聚光灯，天空盒，还有一个3D模型的两种渲染方式
 
-![image](readme_graph/point_light.png)
-![image](readme_graph/SpotLight.png)
-![image](readme_graph/3D.png)
+![image](readme_graph/point_light.jpg)
+![image](readme_graph/SpotLight.jpg)
+![image](readme_graph/3D.jpg)
