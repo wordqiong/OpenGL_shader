@@ -2,7 +2,7 @@
 
 ```bash
 git clone https://github.com/wordqiong/OpenGL_shader.git
-cd Glitter
+cd OpenGL_shader
 mkdir build
 cd build
 ```
