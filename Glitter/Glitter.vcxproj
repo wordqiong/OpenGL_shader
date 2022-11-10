@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{73012331-793D-35F2-A65C-E131E100E194}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Glitter</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Glitter.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Glitter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Glitter.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Glitter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Glitter.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Glitter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Glitter.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Glitter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="E:/semester_three_upper/编译原理/OpenGL_shader";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"E:/semester_three_upper/编译原理/OpenGL_shader\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\cmake\bin\cmake.exe -E copy_directory E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Shaders E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Glitter/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Glitter\Vendor\assimp\lib\Debug\assimp-vc143-mtd.lib;Glitter\Vendor\glfw\src\Debug\glfw3d.lib;Glitter\Vendor\assimp\contrib\zlib\Debug\zlibstaticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Debug/Glitter.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Glitter/Debug/Glitter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="E:/semester_three_upper/编译原理/OpenGL_shader";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"E:/semester_three_upper/编译原理/OpenGL_shader\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\cmake\bin\cmake.exe -E copy_directory E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Shaders E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Glitter/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Glitter\Vendor\assimp\lib\Release\assimp-vc143-mt.lib;Glitter\Vendor\glfw\src\Release\glfw3.lib;Glitter\Vendor\assimp\contrib\zlib\Release\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Release/Glitter.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Glitter/Release/Glitter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="E:/semester_three_upper/编译原理/OpenGL_shader";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"E:/semester_three_upper/编译原理/OpenGL_shader\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\cmake\bin\cmake.exe -E copy_directory E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Shaders E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Glitter/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Glitter\Vendor\assimp\lib\MinSizeRel\assimp-vc143-mt.lib;Glitter\Vendor\glfw\src\MinSizeRel\glfw3.lib;Glitter\Vendor\assimp\contrib\zlib\MinSizeRel\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/MinSizeRel/Glitter.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Glitter/MinSizeRel/Glitter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="E:/semester_three_upper/编译原理/OpenGL_shader";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"E:/semester_three_upper/编译原理/OpenGL_shader\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glfw\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glm;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\stb;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\assimp\code\..\include;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\cmake\bin\cmake.exe -E copy_directory E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Shaders E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Glitter/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Glitter\Vendor\assimp\lib\RelWithDebInfo\assimp-vc143-mt.lib;Glitter\Vendor\glfw\src\RelWithDebInfo\glfw3.lib;Glitter\Vendor\assimp\contrib\zlib\RelWithDebInfo\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/RelWithDebInfo/Glitter.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/Glitter/RelWithDebInfo/Glitter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\semester_three_upper\编译原理\OpenGL_shader\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/semester_three_upper/编译原理/OpenGL_shader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\cmake\bin\cmake.exe -SE:/semester_three_upper/编译原理/OpenGL_shader -BE:/semester_three_upper/编译原理/OpenGL_shader/Glitter --check-stamp-file E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\cmake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeCCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/semester_three_upper/编译原理/OpenGL_shader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\cmake\bin\cmake.exe -SE:/semester_three_upper/编译原理/OpenGL_shader -BE:/semester_three_upper/编译原理/OpenGL_shader/Glitter --check-stamp-file E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\cmake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeCCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/semester_three_upper/编译原理/OpenGL_shader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\cmake\bin\cmake.exe -SE:/semester_three_upper/编译原理/OpenGL_shader -BE:/semester_three_upper/编译原理/OpenGL_shader/Glitter --check-stamp-file E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\cmake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeCCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/semester_three_upper/编译原理/OpenGL_shader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\cmake\bin\cmake.exe -SE:/semester_three_upper/编译原理/OpenGL_shader -BE:/semester_three_upper/编译原理/OpenGL_shader/Glitter --check-stamp-file E:/semester_three_upper/编译原理/OpenGL_shader/Glitter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\cmake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\cmake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\cmake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeCCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Sources\main.cpp" />
+    <ClInclude Include="E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Headers\glitter.hpp" />
+    <None Include="E:\semester_three_upper\编译原理\OpenGL_shader\.gitattributes">
+    </None>
+    <None Include="E:\semester_three_upper\编译原理\OpenGL_shader\.gitignore">
+    </None>
+    <None Include="E:\semester_three_upper\编译原理\OpenGL_shader\.gitmodules">
+    </None>
+    <None Include="E:\semester_three_upper\编译原理\OpenGL_shader\Readme.md">
+    </None>
+    <ClCompile Include="E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Vendor\glad\src\glad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\ZERO_CHECK.vcxproj">
+      <Project>{420DDEDA-5000-36C5-B9BD-42928B53E98A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\code\assimp.vcxproj">
+      <Project>{5ECD5AF7-4839-327F-A153-DD88ECA1CA2A}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\glfw\src\glfw.vcxproj">
+      <Project>{4DBAB995-7829-3946-8B85-1C0064E46DB6}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\semester_three_upper\编译原理\OpenGL_shader\Glitter\Glitter\Vendor\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{182578E3-4650-3196-94A7-2D6D436459DF}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

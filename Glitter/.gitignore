@@ -1,0 +1,6 @@
+[Bb]uild/
+.vs/
+[Dd]ebug/
+CMakeFiles/
+Glitter.dir/
+x64/

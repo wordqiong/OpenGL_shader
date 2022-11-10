@@ -88,7 +88,7 @@ int main(int argc, char * argv[]) {
     Model ourModel("../Glitter/objects/nanosuit.obj");
     unsigned int VBO, cubeVAO;
     glm::vec3 pointLightPositions[] = {
-    glm::vec3(0.7f,  0.2f,  2.0f),
+    glm::vec3(0.1f,  0.2f,  0.5f),
     glm::vec3(2.3f, -3.3f, -4.0f),
     glm::vec3(-4.0f,  2.0f, -12.0f),
     glm::vec3(0.0f,  0.0f, -3.0f)
@@ -348,6 +348,8 @@ int main(int argc, char * argv[]) {
         glDepthFunc(GL_LESS); // set depth function back to default
 
         lightCubeShader.use();
+        projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
+        view = camera.GetViewMatrix();
         lightCubeShader.setMat4("projection", projection);
         lightCubeShader.setMat4("view", view);
 
@@ -356,6 +358,7 @@ int main(int argc, char * argv[]) {
         {
             model = glm::mat4(1.0f);
             model = glm::translate(model, pointLightPositions[i]);
+            model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f));
             model = glm::scale(model, glm::vec3(0.2f)); // Make it a smaller cube
             lightCubeShader.setMat4("model", model);
             glDrawArrays(GL_TRIANGLES, 0, 36);
