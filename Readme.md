@@ -21,11 +21,14 @@ cmake -G "Visual Studio 17" ..
 cmake -G "Visual Studio 17 Win64" ..
 ...
 ```
-
+如果你是Windows下：
 note:Visual Studio 17 ,it may cause error,17or either,it depends on your vs version,my vs version is 2022,so cmake -G "Visual Studio 17" .. can work well.
 
 when you open sln,you need to set glitter as your start program(设置glitter为启动项目)
 
+如果你是linux
+make 
+生成可执行文件请放在build目录下，确保相对路径的正常启动 
 ## perform
 
 你可以看见点光源，聚光灯，天空盒，还有一个3D模型的两种渲染方式
